@@ -2,11 +2,10 @@ module github.com/joseg2/resizepics
 
 go 1.17
 
-replace github.com/joseg2/imageformat => ../imageformat
 
 require (
 	github.com/disintegration/imaging v1.6.2
-	github.com/joseg2/imageformat v0.0.0-00010101000000-000000000000
+	github.com/joseg2/imageformat v0.0.0
 	github.com/pieterclaerhout/go-log v1.14.0
 )
 

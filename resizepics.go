@@ -213,7 +213,7 @@ func main() {
 
 			fmt.Println("      old_ratio is ", old_ratio)
 
-			log.Info("Size=", size, " Width=", str_width, " Height=", str_height, " Orientation=", orientation, " Position=", position, " Rotated=", rotated, "Ratio=", old_ratio, "New size", new_size)
+			log.Info("Size=", size, " Width=", str_width, " Height=", str_height, " Orientation=", orientation, " Position=", position, " Rotated=", rotated, "Ratio=", old_ratio, "New size=", new_size)
 			log.Info("    OPERATIONS 2B DONE - 1.Rotate:", processed.Rotate, "2.Centercrop:", processed.Centercrop, "3.Fillsides:", processed.Fillsides, "4.Scaledown:", processed.Scaledown)
 
 			fmt.Println("Applying transformations on file: ", filename)
@@ -272,6 +272,6 @@ func main() {
 	// Wait for the command to finish
 	err = cmd.Wait()
 	log.CheckError(err)
-	fmt.Println("have a nice day")
+	fmt.Println("Have a nice day")
 
 }
